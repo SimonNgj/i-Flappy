@@ -11,7 +11,7 @@ This project follows the description of the Deep Q Learning algorithm described 
 
 ## How to Run?
 ```
-git clone https://github.com/yenchenlin1994/DeepLearningFlappyBird.git
+git clone https://github.com/SimonNgj/DRLexample1.git
 cd DRLexample1
 python mainNetwork.py
 ```
