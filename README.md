@@ -27,7 +27,7 @@ Please refer to this link if you want to learn more about DQN:
 #### Environment
 Since deep Q-network is trained on the raw pixel values observed from the game screen at each time step, [3] finds that remove the background appeared in the original game can make it converge faster. This process can be visualized as the following figure:
 
-<img src="./images/preprocess.png" width="450">
+<img src="./images/preprocess.png" width="600">
 
 #### Network Architecture
 According to [1], I first preprocessed the game screens with following steps:
