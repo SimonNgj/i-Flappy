@@ -41,8 +41,6 @@ The architecture of the network is shown in the figure below. The first layer co
 
 <img src="./images/DBN.png">
 
-The final output layer has the same dimensionality as the number of valid actions which can be performed in the game, where the 0th index always corresponds to doing nothing. The values at this output layer represent the Q function given the input state for each valid action. At each time step, the network performs whichever action corresponds to the highest Q value using a ϵ greedy policy.
-
 ## Disclaimer
 This work is highly based on the following repos:
 
